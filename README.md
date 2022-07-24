@@ -69,6 +69,11 @@ pdb:get "example.db" "test"
 ```
 bash pdb.sh --get "example.sh" "test"
 ```
+## REQUIREMENTS
+
+[libarchive](https://github.com/libarchive/libarchive)
+[coreutils](https://github.com/coreutils/coreutils)
+[findutils](https://git.savannah.gnu.org/git/findutils)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
