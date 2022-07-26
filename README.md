@@ -8,7 +8,7 @@ and offers the opportunity to run the file directly.
 after the installation the files going to be in the $root/usr/local/lib/bash5 , but it doesn't touch the documents.
 
 ```
-git clone "https://github.com/pnmlinux/pdb" && cd "pdb"
+git clone "https://github.com/pnmlinux/pdb.git" && cd "pdb"
 bash configure.sh
 make install
 ```
