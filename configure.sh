@@ -11,7 +11,11 @@
 export CWD="${PWD}"
 export tab="$(printf '\t')"
 export status="true"
-export root=""
+if [ "${PATH}" = *com.termux* ] ; then
+    export root="/data/data/com.termux/files"
+else
+    export root=""
+fi
 export prefix="/usr"
 
 # parsing the options
