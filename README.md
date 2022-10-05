@@ -1,4 +1,4 @@
-# pdb 1.0.0
+# pdb - pnm database tool
 
 **pdb** key / value based raw data storage tool and library uses cpio.
 It is a library written in bash, but it is shell friendly
